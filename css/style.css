@@ -338,6 +338,14 @@ hr.solid {
         margin-top: 6em;
     }
 }
+
+.navbar-nav a.active-page
+{
+  color: #df7c0b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* ------- .Navigation Menu End ---------- */
 
 
