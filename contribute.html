@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contribute</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <!-- Shortcut icon -->
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+
+    <!-- css files -->
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Typefaces -->
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap'
+        rel='stylesheet' type='text/css'>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2DMS9ERTLG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2DMS9ERTLG');
+    </script>
+
+</head>
+
+<body>
+
+    <a class="skip" href="#skiptomain">Skip to Main Content</a>
+    <!-- Header -->
+    <header id="header" class="shadow bg-light" role="banner" aria-label="website logo and links">
+        <nav class="container navbar">
+            <a href="index.html" class="nav-brand text-dark">
+                Documusings
+            </a>
+
+            <!-- toggle button -->
+            <button class="toggle-button">
+                <span><i class="fas fa-bars"></i></span><span class="sr-only">Toggle Menu Button</span>
+            </button>
+
+            <!-- collapse on toggle button click -->
+            <div class="collapse">
+                <div class="navbar-nav" role="navigation" aria-label="Pages in the website">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html#reviews" class="nav-link">Reviews</a>
+                    <a href="lists.html" class="nav-link">Collections</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contribute.html" class="nav-link active-page">Contribute</a>
+                </div>
+            </div>
+
+            <!-- collapse on toggle button click -->
+            <div class="collapse">
+                <div class="navbar-nav" role="navigation" aria-label="social links">
+                    <a href="https://www.facebook.com/documusings/" class="nav-link"><i
+                            class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a>
+                    <a href="#" class="nav-link"><i class="fas fa-rss"></i><span class="sr-only">Subscribe</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header -->
+
+    <!-- Main Site -->
+    <main class="site-main" id="skiptomain" role="main">
+
+        <!-- Post Content -->
+        <section class="container">
+            <article id="post">
+                <!-- article heading -->
+                <div class="headings text-left">
+
+                    <div class="title py-1">
+                        <h1 class="text-title text-dark display-0"> Contribute
+                        </h1>
+                    </div>
+
+                    <p class="display-1 py-2">Do you enjoy writing reviews and reflextions too? Would you like your
+                        thoughts to be featured on this blog?</p>
+                    <p class="display-2 py-1">We would love for you to join our ever-growing family of guest reviewers!
+                        Please fill out this short form
+                        so that we can get in touch with you and start collaborating.
+                    </p>
+                    <div id="contribute">
+                        <div>
+                            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                                action="https://formspree.io/f/xdobondq" method="post">
+                                <fieldset class="formDiv">
+                                    <label for="full-name" class="formLabel display-2">Full Name*</label>
+                                    <input type="text" name="name" id="full-name" placeholder="Enter your Full Name"
+                                        class="fsForm" aria-required="true" required>
+                                    <label for="email-address" class="formLabel display-2">Email Address*</label>
+                                    <input type="email" name="_replyto" id="email-address"
+                                        placeholder="Enter your email address" class="fsForm" aria-required="true"
+                                        required>
+                                    <label for="message" class="formLabel display-2">Message*</label>
+                                    <textarea rows="5" name="message" id="message" class="fsForm"
+                                        placeholder="Tell us a little about yourself, what you're interested in writing for us and anything else you would like to let us know!"
+                                        aria-required="true" required></textarea>
+                                    <input type="hidden" name="_subject" id="email-subject"
+                                        value="Contact Form Submission">
+                                </fieldset>
+                                <input type="submit" class="submitButton" value="Submit">
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </article>
+
+        </section>
+        <!-- .Post Content -->
+
+    </main>
+    <!-- .Main Site -->
+
+    <!-- Footer -->
+    <footer id="footer" role="contentinfo">
+        <div class="container">
+
+            <!-- copyrights  -->
+            <div class="copyrights">
+                <p class="text-center text-secondary display-3">
+                    © 2021 Yeshashree Prasanna
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- custom javascript main.js file -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
